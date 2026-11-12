@@ -1,0 +1,140 @@
+{
+  "summary": {
+    "total_cases": 12,
+    "recall_at_3_pct": 100.0,
+    "citation_accuracy_pct": 100.0,
+    "abstention_accuracy_pct": 100.0,
+    "p95_ms": 0.06
+  },
+  "cases": [
+    {
+      "question": "How many days does a CPIO have to reply to an RTI request?",
+      "expected_abstain": false,
+      "actual_abstain": false,
+      "confidence": 0.2845,
+      "citations": [
+        "Right to Information Act, 2005, Section 7(1)"
+      ],
+      "passed": true,
+      "latency_ms": 0.07
+    },
+    {
+      "question": "Where can a consumer file a complaint for defective goods?",
+      "expected_abstain": false,
+      "actual_abstain": false,
+      "confidence": 0.6792,
+      "citations": [
+        "Consumer Protection Act, 2019, Section 35",
+        "Consumer Protection Act, 2019, Section 2(47)"
+      ],
+      "passed": true,
+      "latency_ms": 0.06
+    },
+    {
+      "question": "What is the punishment for password or identity theft?",
+      "expected_abstain": false,
+      "actual_abstain": false,
+      "confidence": 0.635,
+      "citations": [
+        "Information Technology Act, 2000, Section 66C"
+      ],
+      "passed": true,
+      "latency_ms": 0.04
+    },
+    {
+      "question": "Can a Data Principal withdraw consent under DPDP Act?",
+      "expected_abstain": false,
+      "actual_abstain": false,
+      "confidence": 0.7412,
+      "citations": [
+        "Digital Personal Data Protection Act, 2023, Section 6",
+        "Information Technology Act, 2000, Section 43"
+      ],
+      "passed": true,
+      "latency_ms": 0.06
+    },
+    {
+      "question": "Does Article 21 protect privacy and personal liberty?",
+      "expected_abstain": false,
+      "actual_abstain": false,
+      "confidence": 0.6703,
+      "citations": [
+        "Constitution of India, Article 21",
+        "Digital Personal Data Protection Act, 2023, Section 6"
+      ],
+      "passed": true,
+      "latency_ms": 0.05
+    },
+    {
+      "question": "What are unfair trade practices and misleading ads?",
+      "expected_abstain": false,
+      "actual_abstain": false,
+      "confidence": 0.4937,
+      "citations": [
+        "Consumer Protection Act, 2019, Section 2(47)",
+        "Consumer Protection Act, 2019, Section 35"
+      ],
+      "passed": true,
+      "latency_ms": 0.04
+    },
+    {
+      "question": "Penalty for unauthorized access or virus damage to computer?",
+      "expected_abstain": false,
+      "actual_abstain": false,
+      "confidence": 0.5634,
+      "citations": [
+        "Information Technology Act, 2000, Section 43"
+      ],
+      "passed": true,
+      "latency_ms": 0.05
+    },
+    {
+      "question": "Consumer shikayat aur defective goods ke liye kya kare?",
+      "expected_abstain": false,
+      "actual_abstain": false,
+      "confidence": 0.5344,
+      "citations": [
+        "Consumer Protection Act, 2019, Section 35",
+        "Consumer Protection Act, 2019, Section 2(47)"
+      ],
+      "passed": true,
+      "latency_ms": 0.05
+    },
+    {
+      "question": "What is the capital of Mars in 2099?",
+      "expected_abstain": true,
+      "actual_abstain": true,
+      "confidence": 0.0,
+      "citations": [],
+      "passed": true,
+      "latency_ms": 0.03
+    },
+    {
+      "question": "How to bake a chocolate cake without eggs?",
+      "expected_abstain": true,
+      "actual_abstain": true,
+      "confidence": 0.1297,
+      "citations": [],
+      "passed": true,
+      "latency_ms": 0.04
+    },
+    {
+      "question": "Explain NFL quarterback salary cap rules",
+      "expected_abstain": true,
+      "actual_abstain": true,
+      "confidence": 0.0,
+      "citations": [],
+      "passed": true,
+      "latency_ms": 0.04
+    },
+    {
+      "question": "Which Pok\u00e9mon evolves into Charizard?",
+      "expected_abstain": true,
+      "actual_abstain": true,
+      "confidence": 0.0,
+      "citations": [],
+      "passed": true,
+      "latency_ms": 0.04
+    }
+  ]
+}
